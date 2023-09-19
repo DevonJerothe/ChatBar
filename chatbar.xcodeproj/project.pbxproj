@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E99B24082ABA4E2000CBA180 /* chatbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24072ABA4E2000CBA180 /* chatbarApp.swift */; };
+		E99B240A2ABA4E2000CBA180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24092ABA4E2000CBA180 /* ContentView.swift */; };
+		E99B240C2ABA4E2100CBA180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B240B2ABA4E2100CBA180 /* Assets.xcassets */; };
+		E99B240F2ABA4E2100CBA180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B240E2ABA4E2100CBA180 /* Preview Assets.xcassets */; };
+		E99B241A2ABA4E2100CBA180 /* chatbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24192ABA4E2100CBA180 /* chatbarTests.swift */; };
+		E99B24242ABA4E2100CBA180 /* chatbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24232ABA4E2100CBA180 /* chatbarUITests.swift */; };
+		E99B24262ABA4E2100CBA180 /* chatbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24252ABA4E2100CBA180 /* chatbarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E99B24162ABA4E2100CBA180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99B23FC2ABA4E2000CBA180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99B24032ABA4E2000CBA180;
+			remoteInfo = chatbar;
+		};
+		E99B24202ABA4E2100CBA180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99B23FC2ABA4E2000CBA180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99B24032ABA4E2000CBA180;
+			remoteInfo = chatbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E99B24042ABA4E2000CBA180 /* chatbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B24072ABA4E2000CBA180 /* chatbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbarApp.swift; sourceTree = "<group>"; };
+		E99B24092ABA4E2000CBA180 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E99B240B2ABA4E2100CBA180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E99B240E2ABA4E2100CBA180 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E99B24102ABA4E2100CBA180 /* chatbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatbar.entitlements; sourceTree = "<group>"; };
+		E99B24152ABA4E2100CBA180 /* chatbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B24192ABA4E2100CBA180 /* chatbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbarTests.swift; sourceTree = "<group>"; };
+		E99B241F2ABA4E2100CBA180 /* chatbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B24232ABA4E2100CBA180 /* chatbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbarUITests.swift; sourceTree = "<group>"; };
+		E99B24252ABA4E2100CBA180 /* chatbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99B24012ABA4E2000CBA180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B24122ABA4E2100CBA180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B241C2ABA4E2100CBA180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E99B23FB2ABA4E2000CBA180 = {
+			isa = PBXGroup;
+			children = (
+				E99B24062ABA4E2000CBA180 /* chatbar */,
+				E99B24182ABA4E2100CBA180 /* chatbarTests */,
+				E99B24222ABA4E2100CBA180 /* chatbarUITests */,
+				E99B24052ABA4E2000CBA180 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E99B24052ABA4E2000CBA180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99B24042ABA4E2000CBA180 /* chatbar.app */,
+				E99B24152ABA4E2100CBA180 /* chatbarTests.xctest */,
+				E99B241F2ABA4E2100CBA180 /* chatbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E99B24062ABA4E2000CBA180 /* chatbar */ = {
+			isa = PBXGroup;
+			children = (
+				E99B24072ABA4E2000CBA180 /* chatbarApp.swift */,
+				E99B24092ABA4E2000CBA180 /* ContentView.swift */,
+				E99B240B2ABA4E2100CBA180 /* Assets.xcassets */,
+				E99B24102ABA4E2100CBA180 /* chatbar.entitlements */,
+				E99B240D2ABA4E2100CBA180 /* Preview Content */,
+			);
+			path = chatbar;
+			sourceTree = "<group>";
+		};
+		E99B240D2ABA4E2100CBA180 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E99B240E2ABA4E2100CBA180 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E99B24182ABA4E2100CBA180 /* chatbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E99B24192ABA4E2100CBA180 /* chatbarTests.swift */,
+			);
+			path = chatbarTests;
+			sourceTree = "<group>";
+		};
+		E99B24222ABA4E2100CBA180 /* chatbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E99B24232ABA4E2100CBA180 /* chatbarUITests.swift */,
+				E99B24252ABA4E2100CBA180 /* chatbarUITestsLaunchTests.swift */,
+			);
+			path = chatbarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99B24032ABA4E2000CBA180 /* chatbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99B24292ABA4E2100CBA180 /* Build configuration list for PBXNativeTarget "chatbar" */;
+			buildPhases = (
+				E99B24002ABA4E2000CBA180 /* Sources */,
+				E99B24012ABA4E2000CBA180 /* Frameworks */,
+				E99B24022ABA4E2000CBA180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatbar;
+			productName = chatbar;
+			productReference = E99B24042ABA4E2000CBA180 /* chatbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E99B24142ABA4E2100CBA180 /* chatbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99B242C2ABA4E2100CBA180 /* Build configuration list for PBXNativeTarget "chatbarTests" */;
+			buildPhases = (
+				E99B24112ABA4E2100CBA180 /* Sources */,
+				E99B24122ABA4E2100CBA180 /* Frameworks */,
+				E99B24132ABA4E2100CBA180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99B24172ABA4E2100CBA180 /* PBXTargetDependency */,
+			);
+			name = chatbarTests;
+			productName = chatbarTests;
+			productReference = E99B24152ABA4E2100CBA180 /* chatbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E99B241E2ABA4E2100CBA180 /* chatbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99B242F2ABA4E2100CBA180 /* Build configuration list for PBXNativeTarget "chatbarUITests" */;
+			buildPhases = (
+				E99B241B2ABA4E2100CBA180 /* Sources */,
+				E99B241C2ABA4E2100CBA180 /* Frameworks */,
+				E99B241D2ABA4E2100CBA180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99B24212ABA4E2100CBA180 /* PBXTargetDependency */,
+			);
+			name = chatbarUITests;
+			productName = chatbarUITests;
+			productReference = E99B241F2ABA4E2100CBA180 /* chatbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99B23FC2ABA4E2000CBA180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E99B24032ABA4E2000CBA180 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E99B24142ABA4E2100CBA180 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E99B24032ABA4E2000CBA180;
+					};
+					E99B241E2ABA4E2100CBA180 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E99B24032ABA4E2000CBA180;
+					};
+				};
+			};
+			buildConfigurationList = E99B23FF2ABA4E2000CBA180 /* Build configuration list for PBXProject "chatbar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E99B23FB2ABA4E2000CBA180;
+			productRefGroup = E99B24052ABA4E2000CBA180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99B24032ABA4E2000CBA180 /* chatbar */,
+				E99B24142ABA4E2100CBA180 /* chatbarTests */,
+				E99B241E2ABA4E2100CBA180 /* chatbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99B24022ABA4E2000CBA180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B240F2ABA4E2100CBA180 /* Preview Assets.xcassets in Resources */,
+				E99B240C2ABA4E2100CBA180 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B24132ABA4E2100CBA180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B241D2ABA4E2100CBA180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99B24002ABA4E2000CBA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B240A2ABA4E2000CBA180 /* ContentView.swift in Sources */,
+				E99B24082ABA4E2000CBA180 /* chatbarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B24112ABA4E2100CBA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B241A2ABA4E2100CBA180 /* chatbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B241B2ABA4E2100CBA180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B24262ABA4E2100CBA180 /* chatbarUITestsLaunchTests.swift in Sources */,
+				E99B24242ABA4E2100CBA180 /* chatbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E99B24172ABA4E2100CBA180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99B24032ABA4E2000CBA180 /* chatbar */;
+			targetProxy = E99B24162ABA4E2100CBA180 /* PBXContainerItemProxy */;
+		};
+		E99B24212ABA4E2100CBA180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99B24032ABA4E2000CBA180 /* chatbar */;
+			targetProxy = E99B24202ABA4E2100CBA180 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E99B24272ABA4E2100CBA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E99B24282ABA4E2100CBA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E99B242A2ABA4E2100CBA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chatbar/chatbar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chatbar/Preview Content\"";
+				DEVELOPMENT_TEAM = S5X4E78NMS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devonjerothe.chatbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E99B242B2ABA4E2100CBA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chatbar/chatbar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chatbar/Preview Content\"";
+				DEVELOPMENT_TEAM = S5X4E78NMS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devonjerothe.chatbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E99B242D2ABA4E2100CBA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5X4E78NMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devonjerothe.chatbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatbar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chatbar";
+			};
+			name = Debug;
+		};
+		E99B242E2ABA4E2100CBA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5X4E78NMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devonjerothe.chatbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatbar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chatbar";
+			};
+			name = Release;
+		};
+		E99B24302ABA4E2100CBA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5X4E78NMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devonjerothe.chatbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chatbar;
+			};
+			name = Debug;
+		};
+		E99B24312ABA4E2100CBA180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5X4E78NMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devonjerothe.chatbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chatbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99B23FF2ABA4E2000CBA180 /* Build configuration list for PBXProject "chatbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B24272ABA4E2100CBA180 /* Debug */,
+				E99B24282ABA4E2100CBA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99B24292ABA4E2100CBA180 /* Build configuration list for PBXNativeTarget "chatbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B242A2ABA4E2100CBA180 /* Debug */,
+				E99B242B2ABA4E2100CBA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99B242C2ABA4E2100CBA180 /* Build configuration list for PBXNativeTarget "chatbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B242D2ABA4E2100CBA180 /* Debug */,
+				E99B242E2ABA4E2100CBA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99B242F2ABA4E2100CBA180 /* Build configuration list for PBXNativeTarget "chatbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B24302ABA4E2100CBA180 /* Debug */,
+				E99B24312ABA4E2100CBA180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E99B23FC2ABA4E2000CBA180 /* Project object */;
+}
