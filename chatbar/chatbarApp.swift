@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct chatbarApp: App {
+
+    @StateObject var viewModel = WebViewModel()
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("ChatBar", systemImage: "bubble.left.and.bubble.right") {
+            ChatBarWindow()
+                .frame(width: 900, height: 700)
         }
+        .menuBarExtraStyle(.window)
     }
 }
