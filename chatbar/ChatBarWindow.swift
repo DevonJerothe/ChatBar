@@ -28,17 +28,24 @@ struct ChatBarWindow: View {
                 Text("Chat GPT")
             })
             Button(action: {
+                viewModel.selectedUrl = "https://bard.google.com/chat"
+                
+            }, label: {
+                Text("Bard")
+            })
+            Button(action: {
+                viewModel.selectedUrl = "https://claude.ai/"
+                
+            }, label: {
+                Text("Claude AI")
+            })
+            Button(action: {
                 viewModel.selectedUrl = "https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx"
 
             }, label: {
                 Text("Bing Chat")
             })
             Spacer()
-//            Button(action: {
-//                //TODO
-//            }, label: {
-//                Image(systemName: "gearshape.circle.fill")
-//            })
             Button(action: {
                 NSApplication.shared.terminate(self)
             }, label: {
