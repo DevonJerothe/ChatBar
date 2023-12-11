@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C87AC95E2B27A0F900FC402A /* ChatBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AC95C2B27A0F900FC402A /* ChatBarViewModel.swift */; };
+		C87AC95F2B27A0F900FC402A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C87AC95D2B27A0F900FC402A /* Info.plist */; };
+		C87AC9612B27A10300FC402A /* ChatBarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AC9602B27A10300FC402A /* ChatBarWindow.swift */; };
 		E99B24082ABA4E2000CBA180 /* chatbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24072ABA4E2000CBA180 /* chatbarApp.swift */; };
-		E99B240A2ABA4E2000CBA180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24092ABA4E2000CBA180 /* ContentView.swift */; };
 		E99B240C2ABA4E2100CBA180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B240B2ABA4E2100CBA180 /* Assets.xcassets */; };
 		E99B240F2ABA4E2100CBA180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B240E2ABA4E2100CBA180 /* Preview Assets.xcassets */; };
 		E99B241A2ABA4E2100CBA180 /* chatbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B24192ABA4E2100CBA180 /* chatbarTests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C87AC95C2B27A0F900FC402A /* ChatBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBarViewModel.swift; sourceTree = "<group>"; };
+		C87AC95D2B27A0F900FC402A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87AC9602B27A10300FC402A /* ChatBarWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBarWindow.swift; sourceTree = "<group>"; };
 		E99B24042ABA4E2000CBA180 /* chatbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99B24072ABA4E2000CBA180 /* chatbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbarApp.swift; sourceTree = "<group>"; };
-		E99B24092ABA4E2000CBA180 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E99B240B2ABA4E2100CBA180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99B240E2ABA4E2100CBA180 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E99B24102ABA4E2100CBA180 /* chatbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatbar.entitlements; sourceTree = "<group>"; };
@@ -95,8 +99,10 @@
 		E99B24062ABA4E2000CBA180 /* chatbar */ = {
 			isa = PBXGroup;
 			children = (
+				C87AC9602B27A10300FC402A /* ChatBarWindow.swift */,
+				C87AC95C2B27A0F900FC402A /* ChatBarViewModel.swift */,
+				C87AC95D2B27A0F900FC402A /* Info.plist */,
 				E99B24072ABA4E2000CBA180 /* chatbarApp.swift */,
-				E99B24092ABA4E2000CBA180 /* ContentView.swift */,
 				E99B240B2ABA4E2100CBA180 /* Assets.xcassets */,
 				E99B24102ABA4E2100CBA180 /* chatbar.entitlements */,
 				E99B240D2ABA4E2100CBA180 /* Preview Content */,
@@ -235,6 +241,7 @@
 			files = (
 				E99B240F2ABA4E2100CBA180 /* Preview Assets.xcassets in Resources */,
 				E99B240C2ABA4E2100CBA180 /* Assets.xcassets in Resources */,
+				C87AC95F2B27A0F900FC402A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99B240A2ABA4E2000CBA180 /* ContentView.swift in Sources */,
+				C87AC95E2B27A0F900FC402A /* ChatBarViewModel.swift in Sources */,
+				C87AC9612B27A10300FC402A /* ChatBarWindow.swift in Sources */,
 				E99B24082ABA4E2000CBA180 /* chatbarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
